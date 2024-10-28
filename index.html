@@ -10,20 +10,22 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #f0f8ff;
             color: #333;
             text-align: center;
             padding: 20px;
+            box-sizing: border-box;
         }
         h1 {
-            font-size: 3em;
+            font-size: 2.5em;
             margin-bottom: 10px;
+            line-height: 1.2;
         }
         p {
-            font-size: 1.2em;
+            font-size: 1em;
             max-width: 600px;
             margin-top: 20px;
             line-height: 1.6;
@@ -31,14 +33,27 @@
         }
         .photo {
             margin-top: 20px;
-            max-width: 400px;
+            max-width: 90%;
             border-radius: 8px;
+            width: 100%;
+            height: auto;
+        }
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 3em;
+            }
+            p {
+                font-size: 1.2em;
+            }
+            .photo {
+                max-width: 400px;
+            }
         }
     </style>
 </head>
 <body>
     <h1>Have a Safe Flight, Sineth!</h1>
-    <p>I will  miss the Sineth I met on two years ago. Letting you go was the one of the hardest thing I did in my life .So this is my final note to you. Have a safe flight and a beautiful journey ahead. Meeting you was yeah I would called it destiny on that day.
+    <p>I will miss the Sineth I met on two years ago. Letting you go was the one of the hardest thing I did in my life. So this is my final note to you. Have a safe flight and a beautiful journey ahead. Meeting you was yeah I would called it destiny on that day.
     
     We may not cross paths again, so I won’t be there with you anymore. Please take care of your health and make sure you’re eating well. Most importantly, live a happy life, and pursue the dreams that mean the most to you.
     
